@@ -86,7 +86,7 @@ cd starfall
 
 Open pgAdmin 4 and run:
 ```sql
-CREATE USER starfall WITH PASSWORD 'starfall_secret';
+CREATE USER starfall WITH PASSWORD 'password_of_db';
 CREATE DATABASE starfall_db OWNER starfall;
 GRANT ALL PRIVILEGES ON DATABASE starfall_db TO starfall;
 ```
