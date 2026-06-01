@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 Create `backend/.env`:
 ```env
-DATABASE_URL=postgresql+asyncpg://starfall:starfall_secret@localhost:5432/starfall_db
+DATABASE_URL=postgresql+asyncpg://starfall:xxxxxxxx@localhost:5432/yyyyyyy
 NASA_API_KEY=your_nasa_api_key
 SPACETRACK_USER=your_spacetrack_email
 SPACETRACK_PASS=your_spacetrack_password
